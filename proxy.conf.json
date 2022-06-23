@@ -1,0 +1,13 @@
+{
+  "historyApiFallback": true,
+  "/api": {
+    "target": "https://localhost:3000",
+    "secure": false
+  },
+  "/cdn/**": {
+    "target": "https://dev.basecloud.hu",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": { "^/cdn" : "" }
+  }
+}
