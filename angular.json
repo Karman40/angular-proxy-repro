@@ -55,6 +55,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "baseHref": "/admin",
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
